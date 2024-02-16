@@ -16,7 +16,7 @@ This guide explains how to set up and run TensorFlow with GPU support on Mac dev
 
 - macOS 11.0 (Big Sur) or later
 
-- Python 3.8 or newer
+- Python 3.9 or newer
 
 - An Apple Mac device with an M series chip
 
@@ -42,7 +42,7 @@ Create a new conda environment to isolate your TensorFlow setup:
 
 ```bash
 
-conda create --name tf_gpu python=3.8
+conda create --name tf_gpu python=3.9
 
 conda activate tf_gpu
 ```
